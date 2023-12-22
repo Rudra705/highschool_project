@@ -1,0 +1,128 @@
+<!-- AUTHOR : RUDRA RATHI -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="style.css">
+ <style>
+    .shop {
+  margin-bottom: 40px;
+}
+
+
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  flex-basis: 23%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product p {
+  line-height: 1.5;
+  color: #666;
+}
+
+.product .price {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product a {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.product a:hover {
+  background-color: #444;
+}
+
+.view-all {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px
+}
+ </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Elevate</h1>
+        <h2>Empowering your health and fitness goals</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="shop">
+        <h2>Elevate Your Fitness Journey - Shop Now!</h2>
+        
+        <div class="product-grid">
+          <div class="product">
+            <img src="images/active.jpeg" alt="product image">
+            <h3>Activewear Set</h3>
+            <p>Comfortable and stylish workout attire for any activity.</p>
+            <span class="price">$49.99</span>
+            <a href="#">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="images/bottle.jpeg" alt="product image">
+            <h3>Water Bottle</h3>
+            <p>Stay hydrated throughout your day with this durable bottle.</p>
+            <span class="price">$19.99</span>
+            <a href="#">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="images/rb.webp" alt="product image">
+            <h3>Resistance Bands</h3>
+            <p>Increase your strength and flexibility with these versatile bands.</p>
+            <span class="price">$24.99</span>
+            <a href="#">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="images/protein.jpeg" alt="product image">
+            <h3>Protein Powder</h3>
+            <p>Support your recovery and muscle growth with this high-quality powder.</p>
+            <span class="price">$39.99</span>
+            <a href="#">Add to Cart</a>
+          </div>
+        </div>
+        <a href="#" class="view-all">View All Products</a>
+      </section>
+      
+</body>
+</html>
